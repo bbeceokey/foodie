@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */; };
 		EBD6EC332C1EAC6E008065D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */; };
-		EBD6EC352C1EAC6E008065D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC342C1EAC6E008065D7 /* ViewController.swift */; };
+		EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC342C1EAC6E008065D7 /* AccountViewController.swift */; };
 		EBD6EC382C1EAC6E008065D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC362C1EAC6E008065D7 /* Main.storyboard */; };
 		EBD6EC3B2C1EAC6E008065D7 /* foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC392C1EAC6E008065D7 /* foodie.xcdatamodeld */; };
 		EBD6EC3D2C1EAC6F008065D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC3C2C1EAC6F008065D7 /* Assets.xcassets */; };
@@ -20,6 +20,14 @@
 		EBD6EC652C1EACCD008065D7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EBD6EC642C1EACCD008065D7 /* Alamofire */; };
 		EBD6EC672C1EACCD008065D7 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = EBD6EC662C1EACCD008065D7 /* AlamofireDynamic */; };
 		EBD6EC6A2C1EAD1A008065D7 /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC692C1EAD1A008065D7 /* Network Manager.swift */; };
+		EBD6EC6E2C1EAE39008065D7 /* LogAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC6D2C1EAE39008065D7 /* LogAuthViewModel.swift */; };
+		EBD6EC712C1EAE4A008065D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC702C1EAE4A008065D7 /* User.swift */; };
+		EBD6EC742C1EB16A008065D7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC722C1EB16A008065D7 /* AuthViewController.swift */; };
+		EBD6EC752C1EB16A008065D7 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC732C1EB16A008065D7 /* AuthViewController.xib */; };
+		EBD6EC792C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC772C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift */; };
+		EBD6EC7A2C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC782C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib */; };
+		EBD6EC7D2C1EFD0B008065D7 /* MealMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */; };
+		EBD6EC7E2C1EFD0B008065D7 /* MealMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC7C2C1EFD0B008065D7 /* MealMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +51,7 @@
 		EBD6EC2D2C1EAC6E008065D7 /* foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBD6EC342C1EAC6E008065D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD6EC342C1EAC6E008065D7 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		EBD6EC372C1EAC6E008065D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBD6EC3A2C1EAC6E008065D7 /* foodie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = foodie.xcdatamodel; sourceTree = "<group>"; };
 		EBD6EC3C2C1EAC6F008065D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +63,14 @@
 		EBD6EC542C1EAC6F008065D7 /* foodieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieUITests.swift; sourceTree = "<group>"; };
 		EBD6EC562C1EAC6F008065D7 /* foodieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EBD6EC692C1EAD1A008065D7 /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		EBD6EC6D2C1EAE39008065D7 /* LogAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogAuthViewModel.swift; sourceTree = "<group>"; };
+		EBD6EC702C1EAE4A008065D7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EBD6EC722C1EB16A008065D7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		EBD6EC732C1EB16A008065D7 /* AuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		EBD6EC772C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		EBD6EC782C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectAccountCollectionViewCell.xib; sourceTree = "<group>"; };
+		EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuViewController.swift; sourceTree = "<group>"; };
+		EBD6EC7C2C1EFD0B008065D7 /* MealMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,15 +123,19 @@
 		EBD6EC2F2C1EAC6E008065D7 /* foodie */ = {
 			isa = PBXGroup;
 			children = (
+				EBD6EC6F2C1EAE41008065D7 /* Models */,
+				EBD6EC6B2C1EAE1B008065D7 /* Scenes */,
 				EBD6EC682C1EACFD008065D7 /* Network Protocol */,
 				EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */,
 				EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */,
-				EBD6EC342C1EAC6E008065D7 /* ViewController.swift */,
+				EBD6EC342C1EAC6E008065D7 /* AccountViewController.swift */,
 				EBD6EC362C1EAC6E008065D7 /* Main.storyboard */,
 				EBD6EC3C2C1EAC6F008065D7 /* Assets.xcassets */,
 				EBD6EC3E2C1EAC6F008065D7 /* LaunchScreen.storyboard */,
 				EBD6EC412C1EAC6F008065D7 /* Info.plist */,
 				EBD6EC392C1EAC6E008065D7 /* foodie.xcdatamodeld */,
+				EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */,
+				EBD6EC7C2C1EFD0B008065D7 /* MealMenuViewController.xib */,
 			);
 			path = foodie;
 			sourceTree = "<group>";
@@ -143,6 +163,42 @@
 				EBD6EC692C1EAD1A008065D7 /* Network Manager.swift */,
 			);
 			path = "Network Protocol";
+			sourceTree = "<group>";
+		};
+		EBD6EC6B2C1EAE1B008065D7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6EC6C2C1EAE25008065D7 /* LogAuth */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EBD6EC6C2C1EAE25008065D7 /* LogAuth */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6EC762C1EB17B008065D7 /* ChooseAccount */,
+				EBD6EC6D2C1EAE39008065D7 /* LogAuthViewModel.swift */,
+				EBD6EC722C1EB16A008065D7 /* AuthViewController.swift */,
+				EBD6EC732C1EB16A008065D7 /* AuthViewController.xib */,
+			);
+			path = LogAuth;
+			sourceTree = "<group>";
+		};
+		EBD6EC6F2C1EAE41008065D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6EC702C1EAE4A008065D7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBD6EC762C1EB17B008065D7 /* ChooseAccount */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6EC772C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift */,
+				EBD6EC782C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib */,
+			);
+			path = ChooseAccount;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +312,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD6EC752C1EB16A008065D7 /* AuthViewController.xib in Resources */,
+				EBD6EC7A2C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib in Resources */,
 				EBD6EC402C1EAC6F008065D7 /* LaunchScreen.storyboard in Resources */,
 				EBD6EC3D2C1EAC6F008065D7 /* Assets.xcassets in Resources */,
+				EBD6EC7E2C1EFD0B008065D7 /* MealMenuViewController.xib in Resources */,
 				EBD6EC382C1EAC6E008065D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +342,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD6EC352C1EAC6E008065D7 /* ViewController.swift in Sources */,
+				EBD6EC7D2C1EFD0B008065D7 /* MealMenuViewController.swift in Sources */,
+				EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */,
+				EBD6EC792C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift in Sources */,
 				EBD6EC6A2C1EAD1A008065D7 /* Network Manager.swift in Sources */,
 				EBD6EC3B2C1EAC6E008065D7 /* foodie.xcdatamodeld in Sources */,
 				EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */,
+				EBD6EC742C1EB16A008065D7 /* AuthViewController.swift in Sources */,
 				EBD6EC332C1EAC6E008065D7 /* SceneDelegate.swift in Sources */,
+				EBD6EC6E2C1EAE39008065D7 /* LogAuthViewModel.swift in Sources */,
+				EBD6EC712C1EAE4A008065D7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

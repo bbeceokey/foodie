@@ -41,24 +41,26 @@ class NetworkManager {
         }
     }
 
-    func post<Input: Encodable, Output: Decodable>(_ url: String,
-                                                   input: Input,
-                                                   output _: Output.Type,
-                                                   completion: @escaping (Result<Output, NetworkError>) -> Void)
-    {
-        AF.request(baseUrl + url,
-                   method: .post,
-                   parameters: input,
-                   encoder: .json,
-                   headers: [
-                    .init(name: "Content-Type", value: "application/json"),
-                   ],
-                   interceptor: self)
-        .validate()
-        .responseDecodable(of: Output.self) { response in
-            completion(response.result)
+    func post<Input: Codable, Output: Decodable>(_ url: String,
+                                                       input: Input,
+                                                       output _: Output.Type,
+                                                       completion: @escaping (Result<Output, NetworkError>) -> Void)
+        {
+            AF.request(baseUrl + url,
+                       method: .post,
+                       parameters: input,
+                       encoder: JSONParameterEncoder.default,
+                       headers: HTTPHeaders(["Content-Type": "application/json"]))
+                .validate()
+                .responseDecodable(of: Output.self) { response in
+                    switch response.result {
+                    case .success(let value):
+                        completion(.success(value))
+                    case .failure(let error):
+                        completion(.failure(error))
+                    }
+                }
         }
-    }
 
     func put<Input: Encodable, Output: Decodable>(_ url: String,
                                                   input: Input,
@@ -111,3 +113,5 @@ extension NetworkManager: RequestInterceptor {
         completion(.success(request))
     }
 }
+
+
