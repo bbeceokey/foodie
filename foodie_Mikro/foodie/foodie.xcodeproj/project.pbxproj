@@ -13,6 +13,8 @@
 		EB05F7CC2C23942D0036927A /* foodCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB05F7CA2C23942D0036927A /* foodCardCollectionViewCell.xib */; };
 		EB05F7CF2C2394450036927A /* popularMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7CD2C2394450036927A /* popularMenuTableViewCell.swift */; };
 		EB05F7D02C2394450036927A /* popularMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */; };
+		EB05F7D22C23A25B0036927A /* MealMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7D12C23A25B0036927A /* MealMenuViewModel.swift */; };
+		EB05F7D42C23A2780036927A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7D32C23A2780036927A /* Meal.swift */; };
 		EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */; };
 		EBD6EC332C1EAC6E008065D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */; };
 		EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC342C1EAC6E008065D7 /* AccountViewController.swift */; };
@@ -59,6 +61,8 @@
 		EB05F7CA2C23942D0036927A /* foodCardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foodCardCollectionViewCell.xib; sourceTree = "<group>"; };
 		EB05F7CD2C2394450036927A /* popularMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularMenuTableViewCell.swift; sourceTree = "<group>"; };
 		EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popularMenuTableViewCell.xib; sourceTree = "<group>"; };
+		EB05F7D12C23A25B0036927A /* MealMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuViewModel.swift; sourceTree = "<group>"; };
+		EB05F7D32C23A2780036927A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		EBD6EC2D2C1EAC6E008065D7 /* foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 				EB05F7CA2C23942D0036927A /* foodCardCollectionViewCell.xib */,
 				EB05F7CD2C2394450036927A /* popularMenuTableViewCell.swift */,
 				EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */,
+				EB05F7D12C23A25B0036927A /* MealMenuViewModel.swift */,
 			);
 			path = MealMenu;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				EBD6EC702C1EAE4A008065D7 /* User.swift */,
+				EB05F7D32C23A2780036927A /* Meal.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -371,11 +377,13 @@
 				EBD6EC7D2C1EFD0B008065D7 /* MealMenuViewController.swift in Sources */,
 				EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */,
 				EBD6EC792C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift in Sources */,
+				EB05F7D22C23A25B0036927A /* MealMenuViewModel.swift in Sources */,
 				EBD6EC6A2C1EAD1A008065D7 /* Network Manager.swift in Sources */,
 				EBD6EC3B2C1EAC6E008065D7 /* foodie.xcdatamodeld in Sources */,
 				EB05F7CF2C2394450036927A /* popularMenuTableViewCell.swift in Sources */,
 				EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */,
 				EBD6EC742C1EB16A008065D7 /* AuthViewController.swift in Sources */,
+				EB05F7D42C23A2780036927A /* Meal.swift in Sources */,
 				EBD6EC332C1EAC6E008065D7 /* SceneDelegate.swift in Sources */,
 				EBD6EC6E2C1EAE39008065D7 /* LogAuthViewModel.swift in Sources */,
 				EBD6EC712C1EAE4A008065D7 /* User.swift in Sources */,
