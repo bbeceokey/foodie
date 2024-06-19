@@ -8,7 +8,14 @@
 import UIKit
 
 class MealMenuViewController: UIViewController {
-    
+    @IBOutlet weak var profilePhoto: UIImageView!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var foodImage: UIView!
+    @IBOutlet weak var foodOptions: UICollectionView!
+    @IBOutlet weak var foodCards: UICollectionView!
+    @IBOutlet weak var popularMenu: UITableView!
+    @IBOutlet weak var seeAllBtn: UIButton!
     var token: String?
 
     override func viewDidLoad() {

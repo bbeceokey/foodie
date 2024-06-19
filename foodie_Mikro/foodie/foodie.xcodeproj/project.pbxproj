@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB05F7C72C23941C0036927A /* foodOptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7C52C23941C0036927A /* foodOptionCollectionViewCell.swift */; };
+		EB05F7C82C23941C0036927A /* foodOptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB05F7C62C23941C0036927A /* foodOptionCollectionViewCell.xib */; };
+		EB05F7CB2C23942D0036927A /* foodCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7C92C23942D0036927A /* foodCardCollectionViewCell.swift */; };
+		EB05F7CC2C23942D0036927A /* foodCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB05F7CA2C23942D0036927A /* foodCardCollectionViewCell.xib */; };
+		EB05F7CF2C2394450036927A /* popularMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7CD2C2394450036927A /* popularMenuTableViewCell.swift */; };
+		EB05F7D02C2394450036927A /* popularMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */; };
 		EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */; };
 		EBD6EC332C1EAC6E008065D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */; };
 		EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC342C1EAC6E008065D7 /* AccountViewController.swift */; };
@@ -27,7 +33,6 @@
 		EBD6EC792C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC772C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift */; };
 		EBD6EC7A2C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC782C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib */; };
 		EBD6EC7D2C1EFD0B008065D7 /* MealMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */; };
-		EBD6EC7E2C1EFD0B008065D7 /* MealMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC7C2C1EFD0B008065D7 /* MealMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB05F7C52C23941C0036927A /* foodOptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodOptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB05F7C62C23941C0036927A /* foodOptionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foodOptionCollectionViewCell.xib; sourceTree = "<group>"; };
+		EB05F7C92C23942D0036927A /* foodCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB05F7CA2C23942D0036927A /* foodCardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foodCardCollectionViewCell.xib; sourceTree = "<group>"; };
+		EB05F7CD2C2394450036927A /* popularMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularMenuTableViewCell.swift; sourceTree = "<group>"; };
+		EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popularMenuTableViewCell.xib; sourceTree = "<group>"; };
 		EBD6EC2D2C1EAC6E008065D7 /* foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +81,6 @@
 		EBD6EC772C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccountCollectionViewCell.swift; sourceTree = "<group>"; };
 		EBD6EC782C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectAccountCollectionViewCell.xib; sourceTree = "<group>"; };
 		EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuViewController.swift; sourceTree = "<group>"; };
-		EBD6EC7C2C1EFD0B008065D7 /* MealMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB05F7C42C2393D70036927A /* MealMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EB05F7C52C23941C0036927A /* foodOptionCollectionViewCell.swift */,
+				EB05F7C62C23941C0036927A /* foodOptionCollectionViewCell.xib */,
+				EB05F7C92C23942D0036927A /* foodCardCollectionViewCell.swift */,
+				EB05F7CA2C23942D0036927A /* foodCardCollectionViewCell.xib */,
+				EB05F7CD2C2394450036927A /* popularMenuTableViewCell.swift */,
+				EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */,
+			);
+			path = MealMenu;
+			sourceTree = "<group>";
+		};
 		EBD6EC242C1EAC6E008065D7 = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +158,6 @@
 				EBD6EC412C1EAC6F008065D7 /* Info.plist */,
 				EBD6EC392C1EAC6E008065D7 /* foodie.xcdatamodeld */,
 				EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */,
-				EBD6EC7C2C1EFD0B008065D7 /* MealMenuViewController.xib */,
 			);
 			path = foodie;
 			sourceTree = "<group>";
@@ -168,6 +190,7 @@
 		EBD6EC6B2C1EAE1B008065D7 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EB05F7C42C2393D70036927A /* MealMenu */,
 				EBD6EC6C2C1EAE25008065D7 /* LogAuth */,
 			);
 			path = Scenes;
@@ -312,12 +335,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB05F7D02C2394450036927A /* popularMenuTableViewCell.xib in Resources */,
+				EB05F7C82C23941C0036927A /* foodOptionCollectionViewCell.xib in Resources */,
 				EBD6EC752C1EB16A008065D7 /* AuthViewController.xib in Resources */,
 				EBD6EC7A2C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib in Resources */,
 				EBD6EC402C1EAC6F008065D7 /* LaunchScreen.storyboard in Resources */,
 				EBD6EC3D2C1EAC6F008065D7 /* Assets.xcassets in Resources */,
-				EBD6EC7E2C1EFD0B008065D7 /* MealMenuViewController.xib in Resources */,
 				EBD6EC382C1EAC6E008065D7 /* Main.storyboard in Resources */,
+				EB05F7CC2C23942D0036927A /* foodCardCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,16 +367,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB05F7CB2C23942D0036927A /* foodCardCollectionViewCell.swift in Sources */,
 				EBD6EC7D2C1EFD0B008065D7 /* MealMenuViewController.swift in Sources */,
 				EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */,
 				EBD6EC792C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift in Sources */,
 				EBD6EC6A2C1EAD1A008065D7 /* Network Manager.swift in Sources */,
 				EBD6EC3B2C1EAC6E008065D7 /* foodie.xcdatamodeld in Sources */,
+				EB05F7CF2C2394450036927A /* popularMenuTableViewCell.swift in Sources */,
 				EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */,
 				EBD6EC742C1EB16A008065D7 /* AuthViewController.swift in Sources */,
 				EBD6EC332C1EAC6E008065D7 /* SceneDelegate.swift in Sources */,
 				EBD6EC6E2C1EAE39008065D7 /* LogAuthViewModel.swift in Sources */,
 				EBD6EC712C1EAE4A008065D7 /* User.swift in Sources */,
+				EB05F7C72C23941C0036927A /* foodOptionCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
