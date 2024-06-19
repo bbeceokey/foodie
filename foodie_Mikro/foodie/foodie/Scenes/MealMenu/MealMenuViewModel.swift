@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+
+protocol MealMenuViewModelProtocol{
+    
+}
+
+extension MealMenuViewModelProtocol{
+    
+}
+
+
+final class MealMenuViewModel{
+    
+}
