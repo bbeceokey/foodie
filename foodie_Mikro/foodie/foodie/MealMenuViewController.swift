@@ -2,7 +2,7 @@
 //  MealMenuViewController.swift
 //  foodie
 //
-//  Created by Busra Ece on 16.06.2024.
+//  Created by Busra Ece on 20.06.2024.
 //
 
 import UIKit
@@ -16,14 +16,31 @@ class MealMenuViewController: UIViewController {
     @IBOutlet weak var foodCards: UICollectionView!
     @IBOutlet weak var popularMenu: UITableView!
     @IBOutlet weak var seeAllBtn: UIButton!
-    var token: String?
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let token = token else { return }
+        
         // Do any additional setup after loading the view.
     }
-
-
+    private let mealMenuViewModel: MealMenuViewModelProtocol = MealMenuViewModel()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // getFoods fonksiyonunu çağırarak meals dizisini alalım
+        mealMenuViewModel.getMeals { result in
+            switch result {
+            case .success(let meals):
+                // Başarılı durumda alınan meals dizisini print ile kontrol edelim
+                print("Received meals:", meals)
+            case .failure(let error):
+                // Hata durumunda hatayı print ile kontrol edelim
+                print("Error fetching meals:", error)
+            }
+        }
+        
+    }
 }
+

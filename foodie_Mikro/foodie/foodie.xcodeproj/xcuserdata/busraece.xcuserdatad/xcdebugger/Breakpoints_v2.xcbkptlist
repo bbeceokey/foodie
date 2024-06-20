@@ -14,39 +14,39 @@
             filePath = "foodie/Scenes/LogAuth/AuthViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "configureView(regFlag:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A1011AC7-FFA9-495E-B532-05ADE8D0E857 - e62fce0e70e0b038"
+                  uuid = "A1011AC7-FFA9-495E-B532-05ADE8D0E857 - a5ca4fd12a7cc79"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "foodie.AuthViewController.configureView(regFlag: Swift.Bool) -&gt; ()"
                   moduleName = "foodie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "324">
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1312">
                </Location>
                <Location
-                  uuid = "A1011AC7-FFA9-495E-B532-05ADE8D0E857 - e62fce0e70e0b3fa"
+                  uuid = "A1011AC7-FFA9-495E-B532-05ADE8D0E857 - a5ca4fd12a7cd52"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "foodie.AuthViewController.configureView(regFlag: Swift.Bool) -&gt; ()"
                   moduleName = "foodie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
                   offsetFromSymbolStart = "324">
                </Location>
             </Locations>
@@ -62,8 +62,8 @@
             filePath = "foodie/Scenes/LogAuth/LogAuthViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "loginUser(email:password:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "foodie/Scenes/LogAuth/LogAuthViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "loginUser(email:password:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,58 +94,72 @@
             filePath = "foodie/Scenes/LogAuth/LogAuthViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "loginUser(email:password:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C6F07AA3-D2EF-4ED0-8E29-3C90657C6C11 - 11b1ab4843e7d94c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "foodie.LoginViewModel.loginUser(email: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "foodie"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/LogAuthViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "332">
-               </Location>
-               <Location
-                  uuid = "C6F07AA3-D2EF-4ED0-8E29-3C90657C6C11 - 37c2e90a673bb24a"
+                  uuid = "C6F07AA3-D2EF-4ED0-8E29-3C90657C6C11 - 25bba67fbb2ae38a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Result&lt;foodie.AuthResponse, Alamofire.AFError&gt;) -&gt; () in foodie.LoginViewModel.loginUser(email: Swift.String, password: Swift.String) -&gt; ()"
                   moduleName = "foodie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/LogAuthViewModel.swift"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/LogAuthViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "228">
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "C6F07AA3-D2EF-4ED0-8E29-3C90657C6C11 - 25bba67fbb2ae38a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;foodie.AuthResponse, Alamofire.AFError&gt;) -&gt; () in foodie.LoginViewModel.loginUser(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "foodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/LogAuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "C6F07AA3-D2EF-4ED0-8E29-3C90657C6C11 - 3c8e43d9ff6888c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodie.LoginViewModel.loginUser(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "foodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/LogAuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "C6F07AA3-D2EF-4ED0-8E29-3C90657C6C11 - 25bba67fbb2ae38a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;foodie.AuthResponse, Alamofire.AFError&gt;) -&gt; () in foodie.LoginViewModel.loginUser(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "foodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/LogAuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "248">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "19D1084D-334D-442C-BB46-B74F14B6DC76"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "foodie/Network Protocol/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "post(_:input:output:completion:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -158,88 +172,40 @@
             filePath = "foodie/Scenes/LogAuth/AuthViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "78F20B46-E072-462F-B151-F512C0D113B7 - 34258cc59d7eaaa9"
+                  uuid = "78F20B46-E072-462F-B151-F512C0D113B7 - d856e636ff382eae"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "foodie.AuthViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
                   moduleName = "foodie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "296">
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "712">
                </Location>
                <Location
-                  uuid = "78F20B46-E072-462F-B151-F512C0D113B7 - 34258cc59d7eaaef"
+                  uuid = "78F20B46-E072-462F-B151-F512C0D113B7 - d856e636ff382fc5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "foodie.AuthViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
                   moduleName = "foodie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
                   offsetFromSymbolStart = "208">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A0D6FB37-8FE8-417F-9948-C03F28C07481"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "foodie/Scenes/LogAuth/AuthViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A0D6FB37-8FE8-417F-9948-C03F28C07481 - 226f4dcaed184b70"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "foodie.AuthViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "foodie"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "540">
-               </Location>
-               <Location
-                  uuid = "A0D6FB37-8FE8-417F-9948-C03F28C07481 - 226f4dcaed184b70"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "foodie.AuthViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "foodie"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/busraece/Documents/Projects/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "544">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -15,7 +15,7 @@ protocol LoginViewModelProtocol { // burdaki işlemler
 }
 
 protocol LoginViewModelDelegate {//viewcontrollerla iletişim halinde olmamızı sağlar
-    func routePage(with token: String)
+    func routePage()
 }
 
 final class LoginViewModel : LoginViewModelProtocol {
@@ -33,11 +33,13 @@ final class LoginViewModel : LoginViewModelProtocol {
     var user =  User()
     private let networkManager = NetworkManager.instance
     
+    
+    
     fileprivate func registerUser(user: User) {
         networkManager.post("/auth/register", input: user, output: AuthResponse.self) { [weak self] result in
                 switch result {
                 case .success(let response):
-                    self?.delegate?.routePage(with: response.token)
+                    self?.delegate?.routePage()
                 case .failure(let error):
                     // Handle failure
                     print("Registration failed: \(error.localizedDescription)")
@@ -51,7 +53,7 @@ final class LoginViewModel : LoginViewModelProtocol {
                 switch result {
                 case .success(let response):
                     print(response)
-                    //self?.delegate?.routePage(with: response.token)
+                    self?.delegate?.routePage()
                 case .failure(let error):
                     // Handle failure
                     print("Login failed: \(error.localizedDescription)")

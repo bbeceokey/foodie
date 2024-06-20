@@ -7,22 +7,13 @@
 
 import UIKit
 
-class AccountViewController: UIViewController, LoginViewModelDelegate {
+class AccountViewController: UIViewController {
 
-    func routePage(with token: String) {
-        let mealMenuVC = MealMenuViewController()
-        mealMenuVC.token = token
-        navigationController?.pushViewController(mealMenuVC, animated: true)
-    }
+    
     
     @IBOutlet weak var authView: UIView!
     
-    var viewModel : LoginViewModelProtocol! {
-        didSet{
-            viewModel.delegate = self
-        }
-    }
-    
+
     
     var authViewController = AuthViewController(nibName: nil, bundle: nil)
 

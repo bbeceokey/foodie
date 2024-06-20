@@ -15,6 +15,7 @@
 		EB05F7D02C2394450036927A /* popularMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */; };
 		EB05F7D22C23A25B0036927A /* MealMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7D12C23A25B0036927A /* MealMenuViewModel.swift */; };
 		EB05F7D42C23A2780036927A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB05F7D32C23A2780036927A /* Meal.swift */; };
+		EB8B3C422C245FAB00317EEF /* MealMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B3C412C245FAB00317EEF /* MealMenuViewController.swift */; };
 		EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */; };
 		EBD6EC332C1EAC6E008065D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */; };
 		EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC342C1EAC6E008065D7 /* AccountViewController.swift */; };
@@ -34,7 +35,6 @@
 		EBD6EC752C1EB16A008065D7 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC732C1EB16A008065D7 /* AuthViewController.xib */; };
 		EBD6EC792C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC772C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift */; };
 		EBD6EC7A2C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD6EC782C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib */; };
-		EBD6EC7D2C1EFD0B008065D7 /* MealMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +63,7 @@
 		EB05F7CE2C2394450036927A /* popularMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popularMenuTableViewCell.xib; sourceTree = "<group>"; };
 		EB05F7D12C23A25B0036927A /* MealMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuViewModel.swift; sourceTree = "<group>"; };
 		EB05F7D32C23A2780036927A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		EB8B3C412C245FAB00317EEF /* MealMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuViewController.swift; sourceTree = "<group>"; };
 		EBD6EC2D2C1EAC6E008065D7 /* foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD6EC302C1EAC6E008065D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +85,6 @@
 		EBD6EC732C1EB16A008065D7 /* AuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
 		EBD6EC772C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccountCollectionViewCell.swift; sourceTree = "<group>"; };
 		EBD6EC782C1EB19A008065D7 /* SelectAccountCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectAccountCollectionViewCell.xib; sourceTree = "<group>"; };
-		EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,11 +158,11 @@
 				EBD6EC322C1EAC6E008065D7 /* SceneDelegate.swift */,
 				EBD6EC342C1EAC6E008065D7 /* AccountViewController.swift */,
 				EBD6EC362C1EAC6E008065D7 /* Main.storyboard */,
+				EB8B3C412C245FAB00317EEF /* MealMenuViewController.swift */,
 				EBD6EC3C2C1EAC6F008065D7 /* Assets.xcassets */,
 				EBD6EC3E2C1EAC6F008065D7 /* LaunchScreen.storyboard */,
 				EBD6EC412C1EAC6F008065D7 /* Info.plist */,
 				EBD6EC392C1EAC6E008065D7 /* foodie.xcdatamodeld */,
-				EBD6EC7B2C1EFD0B008065D7 /* MealMenuViewController.swift */,
 			);
 			path = foodie;
 			sourceTree = "<group>";
@@ -374,11 +374,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB05F7CB2C23942D0036927A /* foodCardCollectionViewCell.swift in Sources */,
-				EBD6EC7D2C1EFD0B008065D7 /* MealMenuViewController.swift in Sources */,
 				EBD6EC352C1EAC6E008065D7 /* AccountViewController.swift in Sources */,
 				EBD6EC792C1EB19A008065D7 /* SelectAccountCollectionViewCell.swift in Sources */,
 				EB05F7D22C23A25B0036927A /* MealMenuViewModel.swift in Sources */,
 				EBD6EC6A2C1EAD1A008065D7 /* Network Manager.swift in Sources */,
+				EB8B3C422C245FAB00317EEF /* MealMenuViewController.swift in Sources */,
 				EBD6EC3B2C1EAC6E008065D7 /* foodie.xcdatamodeld in Sources */,
 				EB05F7CF2C2394450036927A /* popularMenuTableViewCell.swift in Sources */,
 				EBD6EC312C1EAC6E008065D7 /* AppDelegate.swift in Sources */,

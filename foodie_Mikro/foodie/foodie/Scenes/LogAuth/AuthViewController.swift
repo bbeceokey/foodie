@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AuthViewController: UIViewController {
+class AuthViewController: UIViewController, LoginViewModelDelegate {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var nameTextfield: UITextField!
@@ -22,12 +22,26 @@ class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        authViewModel.delegate = self
+        
         selectAccountCollectionView.dataSource = self
         selectAccountCollectionView.delegate = self
         let nib = UINib(nibName: "SelectAccountCollectionViewCell", bundle: nil)
         selectAccountCollectionView.register(nib, forCellWithReuseIdentifier: "selectCell")
 
         selectAccountCollectionView.reloadData()
+    }
+    
+    func routePage() { //mealMenuVC
+        if  storyboard == UIStoryboard(name: "Main", bundle: nil) {
+            if let mealMenuVC = storyboard?.instantiateViewController(withIdentifier: "mealMenuVC") as? MealMenuViewController {
+                navigationController?.pushViewController(mealMenuVC, animated: true)
+            } else {
+                print("MealMenuViewController instantiate edilemedi")
+            }
+        } else {
+            print("Storyboard yüklenemedi")
+        }
     }
     
     func configureView(regFlag: Bool){
@@ -43,8 +57,10 @@ class AuthViewController: UIViewController {
     }
     
     @IBAction func clickedBtn(_ sender: Any) {
-        if saveBtn.titleLabel?.text == "Register" {
+        if saveBtn.titleLabel?.text == "Log In" {
             authViewModel.logUser(email: emailTextField.text ?? "", password: pswdTextfield.text ?? "")
+            
+            
         } else {
             var user = User()
             user.email = emailTextField.text ?? ""
