@@ -105,7 +105,7 @@ extension NetworkManager: RequestInterceptor {
     func adapt(_ urlRequest: URLRequest, for _: Session, completion: @escaping (Result<URLRequest, Error>) -> Void) {
         var request = urlRequest
 
-        if let token = userDefaults.string(forKey: "SUPER_SECURE_JWT") {
+        if let token = userDefaults.string(forKey: "SECURE_JWT") {
             let bearerToken = "Bearer \(token)"
             request.setValue(bearerToken, forHTTPHeaderField: "Authorization")
         }
