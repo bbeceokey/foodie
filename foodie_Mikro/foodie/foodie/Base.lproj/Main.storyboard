@@ -22,14 +22,26 @@
                                 <rect key="frame" x="16" y="297" width="361" height="505"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50W-2I-6qe">
+                                <rect key="frame" x="299" y="103" width="60" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                                <connections>
+                                    <action selector="clickedNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="58v-TB-udR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vi6-xe-NeD" secondAttribute="trailing" constant="16" id="6uv-RY-fEC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="50W-2I-6qe" secondAttribute="trailing" constant="34" id="Csw-a5-ddb"/>
                             <constraint firstItem="Vi6-xe-NeD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Hgd-pf-tCl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vi6-xe-NeD" secondAttribute="bottom" constant="16" id="chE-BL-8EZ"/>
+                            <constraint firstItem="50W-2I-6qe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="eAd-Cj-ZUb"/>
                             <constraint firstItem="Vi6-xe-NeD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="194" id="iX2-Br-5si"/>
+                            <constraint firstItem="50W-2I-6qe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="299" id="ixJ-rg-WWS"/>
+                            <constraint firstItem="Vi6-xe-NeD" firstAttribute="top" secondItem="50W-2I-6qe" secondAttribute="bottom" constant="159" id="lRZ-aC-lW3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Qce-Fc-Moz"/>

@@ -13,7 +13,12 @@ class AccountViewController: UIViewController {
     
     @IBOutlet weak var authView: UIView!
     
-
+    @IBAction func clickedNext(_ sender: Any) {
+        
+        let mealVc = MealMenuViewController()
+        present(mealVc, animated: true)
+    }
+    
     
     var authViewController = AuthViewController(nibName: nil, bundle: nil)
 

@@ -49,6 +49,21 @@
                   endingLineNumber = "50"
                   offsetFromSymbolStart = "324">
                </Location>
+               <Location
+                  uuid = "A1011AC7-FFA9-495E-B532-05ADE8D0E857 - 29539f1225837260"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "foodie.AuthViewController.clickedBtn(Any) -&gt; ()"
+                  moduleName = "foodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/busraece/Documents/GitHub/foodie/foodie_Mikro/foodie/foodie/Scenes/LogAuth/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "156">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
